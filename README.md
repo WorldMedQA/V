@@ -1,5 +1,6 @@
 # WorldMedQA-V: A Multilingual, Multimodal Medical Examination Dataset
   ![logo](src/logo.png)
+  
 ## Overview
 
 **WorldMedQA-V** is a multilingual and multimodal benchmarking dataset designed to evaluate vision-language models (VLMs) in healthcare contexts. The dataset includes medical examination questions from four countries—Brazil, Israel, Japan, and Spain—in both their original languages and English translations. Each multiple-choice question is paired with a corresponding medical image, enabling the evaluation of VLMs on multimodal data.
@@ -50,14 +51,19 @@ The dataset can be downloaded from [Hugging Face datasets page](https://huggingf
 - **Dataset Code**: [WorldMedQA GitHub repository](https://github.com/WorldMedQA/V)
 - **Evaluation Code**: [VLMEvalKit GitHub repository](https://github.com/WorldMedQA/VLMEvalKit/tree/main)
 
+**Where and How to start?**: [Google Colab Demo](https://colab.research.google.com/drive/16bw_7_sUTajNRZFunRNo3wqnL_tQWk6O)
+
 ## Citation
 
 Please cite this dataset as follows:
 
 ```bibtex
-@article{WorldMedQA-V2024,
-  title={WorldMedQA-V: A Multilingual, Multimodal Medical Examination Dataset},
-  author={Matos and Chen et al.},
-  journal={Preprint},
-  year={2024},
+@misc{WorldMedQA-V2024,
+      title={WorldMedQA-V: a multilingual, multimodal medical examination dataset for multimodal language models evaluation}, 
+      author={João Matos and Shan Chen and Siena Placino and Yingya Li and Juan Carlos Climent Pardo and Daphna Idan and Takeshi Tohyama and David Restrepo and Luis F. Nakayama and Jose M. M. Pascual-Leone and Guergana Savova and Hugo Aerts and Leo A. Celi and A. Ian Wong and Danielle S. Bitterman and Jack Gallifant},
+      year={2024},
+      eprint={2410.12722},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.12722}, 
 }
